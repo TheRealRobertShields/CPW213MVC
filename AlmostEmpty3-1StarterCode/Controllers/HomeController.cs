@@ -19,5 +19,12 @@ namespace AlmostEmpty3_1StarterCode.Controllers
             ViewData["Title"] = "About";
             return View();
         }
+
+        public IActionResult TopSecretPage()
+        {
+            ViewData["Title"] = "TopSecret";
+            return View();
+        }
+
     }
 }
